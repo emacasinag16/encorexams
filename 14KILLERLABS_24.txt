@@ -98,9 +98,9 @@ interface Port-channel 11
  switchport trunk encapsulation dot1q
  switchport mode trunk
  
-Task 2. Modify the spanning tree configuration to ensure that Sw10 is always the root for VLAN 10 and VLAN 30.
+Task 2. Modify the spanning tree configuration to ensure that Sw10 is always the root for VLAN 10 and VLAN 20.
 
-Sw10(config)#spanning-tree vlan 10,30 root primary
+Sw10(config)#spanning-tree vlan 10,20 root primary
 
 Save the configuration
 
